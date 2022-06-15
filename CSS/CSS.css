@@ -1,0 +1,70 @@
+/* ETIQUETAS */
+
+body{
+    background-color: #faf8ef;
+}
+nav{
+    margin-bottom: 25px;
+}
+
+
+/* CLASES */
+
+.row{
+    padding-bottom: 20px; 
+    border-bottom: 3px solid #f8914dd2;
+    margin-bottom: 30px;
+}
+.col{
+    margin-top: 20px;
+}
+.card{
+    border-radius: 20px;
+}
+.card img{
+    border-radius: 10px;
+}
+.imagen{
+    border-radius: 20px;
+    border: 5px solid rgba(194, 102, 41, 0.824)
+}
+.imgProductos{
+    max-height: 80%;
+    object-fit: cover;
+}
+.containerProducto{
+    border: 2px solid #ffc198d2 ;
+    opacity: 92%;
+}
+.containerProducto img{
+    max-height: 400px;
+}
+.containerProducto:hover{
+    opacity: 100%;
+    width: 105%;
+}
+.containerProducto p{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.btn-warning{
+    background-color: #ffa66bd2 ;
+    border-color: #fca368d2 ;
+}
+.btnIniSesion{
+    background-color: #fd8f46d2 !important;
+    border-color: #ca743ae3 !important;
+}
+.comentarios{
+    background-color: #ffc095d2 ;
+}
+.contComentario{
+    background-color: #ffae77d2 ;
+    
+}
+
+
+/* IDENTIFICADORES */
